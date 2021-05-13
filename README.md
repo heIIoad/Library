@@ -1,2 +1,2 @@
 # Library
-Online 
+Online library created with usage of Java + Spring and Hibernate frameworks
