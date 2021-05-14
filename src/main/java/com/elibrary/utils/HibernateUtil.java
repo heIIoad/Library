@@ -1,4 +1,4 @@
-package com.ebrary.utils;
+package com.elibrary.utils;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistry;
