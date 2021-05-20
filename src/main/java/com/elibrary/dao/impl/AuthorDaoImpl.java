@@ -13,7 +13,7 @@ import javax.transaction.Transactional;
 public class AuthorDaoImpl implements AuthorDao {
     public Author get(Long id){
         Session session = HibernateUtil.getSessionFactory().openSession();
-        Author author = null;
+        Author author;
         try {
             author = session.get(Author.class, id);
         }
